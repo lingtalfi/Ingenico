@@ -39,7 +39,7 @@ Or just download it and place it where you want otherwise.
 
 DirectLink operation codes overview
 ---------------------------
-[![ingenico-directlink-operation-codes.jpg](https://s19.postimg.org/4b038m2n7/ingenico-directlink-operation-codes.jpg)](https://postimg.org/image/ov4x73ie7/)
+[![ingenico-directlink-operation-codes.jpg](https://s19.postimg.org/mf33t90bn/ingenico-directlink-operation-codes.jpg)](https://postimg.org/image/bs9ants67/)
 
 
 
