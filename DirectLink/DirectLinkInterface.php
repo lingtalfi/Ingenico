@@ -13,24 +13,6 @@ interface DirectLinkInterface
      * https://payment-services.ingenico.com/fr/fr/ogone/support/guides/integration%20guides/directlink
      * https://payment-services.ingenico.com/fr/fr/ogone/support/guides/integration%20guides/alias
      * @param array $data
-     *
-     *          - ORDERID
-     *          - AMOUNT
-     *          - CURRENCY
-     *          - CARDNO
-     *          - ED
-     *          - CVC
-     *          - OPERATION
-     *
-     *          // to store an alias add the following
-     *          - ALIAS
-     *          - CN
-     *
-     *          // to use alias with recurring transactions, add this:
-     *          - ECI: 9
-     *
-     *
-     *
      * @param bool $isTest
      * @return StandardIngenicoRequestResultInterface
      *

@@ -8,6 +8,8 @@ Demo Summary
         - Request a new order
         - Request a new order using 3-D Secure
         - Request a new order using an alias
+    - CreateAlias
+        - Create an alias
     - Maintenance
         - Maintenance request
 - DirectQuery (todo)

@@ -74,6 +74,14 @@ class DirectLink implements DirectLinkInterface
          * "CARDNO",
          * "ED",
          * "CVC",
+         * "ORDERID",
+         * "AMOUNT", // x100
+         * "CURRENCY",
+         *
+         * // https://payment-services.ingenico.com/fr/fr/ogone/support/guides/integration%20guides/directlink
+         * "OPERATION", // RES,SAL,RFD,PAU
+         *
+         *
          */
         $data = array_merge($this->config->getValues(), $data);
 
@@ -82,11 +90,6 @@ class DirectLink implements DirectLinkInterface
             "USERID",
             "PSWD",
             //
-            "ORDERID",
-            "AMOUNT", // x100
-            "CURRENCY",
-            // https://payment-services.ingenico.com/fr/fr/ogone/support/guides/integration%20guides/directlink
-            "OPERATION", // RES,SAL,RFD,PAU
             /**
              *
              */
