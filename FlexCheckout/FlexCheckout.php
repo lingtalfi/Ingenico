@@ -53,7 +53,6 @@ class FlexCheckout implements FlexCheckoutInterface
             $data["SHASIGNATURE.SHASIGN"] = $sign;
         }
 
-//        az($data);
         return $this->doRequest($url, $data);
     }
 

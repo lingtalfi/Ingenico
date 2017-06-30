@@ -146,6 +146,8 @@ class DirectLink implements DirectLinkInterface
         $data['HTTP_ACCEPT'] = (array_key_exists('HTTP_ACCEPT', $_SERVER)) ? $_SERVER['HTTP_ACCEPT'] : "*/*";
         $data['HTTP_USER_AGENT'] = (array_key_exists('HTTP_USER_AGENT', $_SERVER)) ? $_SERVER['HTTP_USER_AGENT'] : "not found";
         $data['WIN3DS'] = "MAINW";
+//        $data['WIN3DS'] = "POPUP";
+//        $data['WIN3DS'] = "POPIX";
 
 
         IngenicoUtil::checkMandatoryKeys([
@@ -156,12 +158,12 @@ class DirectLink implements DirectLinkInterface
             "ORDERID",
             "AMOUNT", // x100
             "CURRENCY",
-            "CARDNO",
-            "ED",
-            "CVC",
+//            "CARDN
             // https://payment-services.ingenico.com/fr/fr/ogone/support/guides/integration%20guides/directlink
             "OPERATION", // RES,SAL,RFD,PAU
         ], $data);
+
+
 
 
         $passPhrase = $this->config->getPassPhrase();
