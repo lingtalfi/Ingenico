@@ -81,6 +81,10 @@ Basically, the examples cover those topics:
 History Log
 ------------------
     
+- 1.3.0 -- 2017-07-11
+
+    - remove FlexCheckoutInterface.getFlexForm method (overridden by injectFlexFormToIframe)
+    
 - 1.2.0 -- 2017-07-11
 
     - add FlexCheckoutInterface.injectFlexFormToIframe method
