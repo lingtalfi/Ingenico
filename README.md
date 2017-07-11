@@ -81,6 +81,10 @@ Basically, the examples cover those topics:
 History Log
 ------------------
     
+- 1.1.0 -- 2017-07-11
+
+    - fixed FlexCheckout.getFlexForm DECLINEURL must be part of the params, and not the shasign
+    
 - 1.0.0 -- 2017-06-29
 
     - initial commit

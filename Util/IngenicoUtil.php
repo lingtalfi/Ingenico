@@ -24,6 +24,7 @@ class IngenicoUtil
 
             $k = strtoupper($k);
             $s .= "$k=$v";
+//            $s .= "<br>";
             $s .= $passPhrase;
         }
         $s = sha1($s);
