@@ -15,4 +15,7 @@ interface FlexCheckoutInterface
      */
     public function getFlexForm(array $data, $isTest = false);
 
+
+    public function injectFlexFormToIframe($iFrameName, array $data, $isTest = false);
+
 }

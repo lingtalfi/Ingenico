@@ -81,6 +81,10 @@ Basically, the examples cover those topics:
 History Log
 ------------------
     
+- 1.2.0 -- 2017-07-11
+
+    - add FlexCheckoutInterface.injectFlexFormToIframe method
+    
 - 1.1.0 -- 2017-07-11
 
     - fixed FlexCheckout.getFlexForm DECLINEURL must be part of the params, and not the shasign
