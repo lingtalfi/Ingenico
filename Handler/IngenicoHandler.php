@@ -10,6 +10,7 @@ use Ingenico\DirectLink\DirectLink;
 use Ingenico\DirectLink\DirectLinkInterface;
 use Ingenico\Ecommerce\Ecommerce;
 use Ingenico\Ecommerce\EcommerceInterface;
+use Ingenico\Exception\IngenicoException;
 use Ingenico\FlexCheckout\FlexCheckout;
 use Ingenico\FlexCheckout\FlexCheckoutInterface;
 
@@ -42,6 +43,8 @@ class IngenicoHandler implements IngenicoHandlerInterface
             include $confFile;
             $config = new IngenicoConfig($conf);
             $o->setConfig($config);
+        } else {
+            throw new IngenicoException("Config file not found: $confFile");
         }
         return $o;
     }

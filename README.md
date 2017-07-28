@@ -81,6 +81,10 @@ Basically, the examples cover those topics:
 History Log
 ------------------
     
+- 1.3.1 -- 2017-07-28
+
+    - update IngenicoHandler.createByConfFile now throws an error if the config file path is not correct
+    
 - 1.3.0 -- 2017-07-11
 
     - remove FlexCheckoutInterface.getFlexForm method (overridden by injectFlexFormToIframe)
