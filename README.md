@@ -81,6 +81,10 @@ Basically, the examples cover those topics:
 History Log
 ------------------
     
+- 1.4.0 -- 2017-07-28
+
+    - add IngenicoHandler.createByConfArray method
+        
 - 1.3.1 -- 2017-07-28
 
     - update IngenicoHandler.createByConfFile now throws an error if the config file path is not correct

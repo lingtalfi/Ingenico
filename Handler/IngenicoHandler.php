@@ -49,6 +49,14 @@ class IngenicoHandler implements IngenicoHandlerInterface
         return $o;
     }
 
+    public static function createByConfArray(array $conf)
+    {
+        $o = new static();
+        $config = new IngenicoConfig($conf);
+        $o->setConfig($config);
+        return $o;
+    }
+
     /**
      * @return FlexCheckoutInterface
      */
