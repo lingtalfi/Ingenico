@@ -81,6 +81,10 @@ Basically, the examples cover those topics:
 History Log
 ------------------
     
+- 1.5.0 -- 2017-07-31
+
+    - add IngenicoUtil.checkSignature method (placeholder)
+    
 - 1.4.0 -- 2017-07-28
 
     - add IngenicoHandler.createByConfArray method
