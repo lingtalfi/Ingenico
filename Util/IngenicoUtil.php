@@ -13,6 +13,14 @@ class IngenicoUtil
 {
 
 
+    public static function checkSignature(array $data, $passPhrase)
+    {
+        /**
+         * Todo: implement
+         */
+        return true;
+    }
+
     public static function createShaSignature(array $data, $passPhrase)
     {
         ksort($data);
