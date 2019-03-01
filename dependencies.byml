@@ -1,4 +1,6 @@
 dependencies: 
-    - ling.Bat
+    ling: 
+        - Bat
+    
 
 post_install: []
