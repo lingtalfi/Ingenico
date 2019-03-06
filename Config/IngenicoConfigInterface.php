@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Ingenico\Config;
+namespace Ling\Ingenico\Config;
 
 
 interface IngenicoConfigInterface

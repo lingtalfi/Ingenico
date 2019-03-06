@@ -1,13 +1,13 @@
 <?php
 
 
-namespace Ingenico\FlexCheckout;
+namespace Ling\Ingenico\FlexCheckout;
 
 
-use Bat\HttpTool;
-use Ingenico\Config\IngenicoConfigInterface;
-use Ingenico\Exception\IngenicoException;
-use Ingenico\Util\IngenicoUtil;
+use Ling\Bat\HttpTool;
+use Ling\Ingenico\Config\IngenicoConfigInterface;
+use Ling\Ingenico\Exception\IngenicoException;
+use Ling\Ingenico\Util\IngenicoUtil;
 
 class FlexCheckout implements FlexCheckoutInterface
 {

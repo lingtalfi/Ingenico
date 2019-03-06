@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Ingenico\Request\Result;
+namespace Ling\Ingenico\Request\Result;
 
 
-use Ingenico\Exception\IngenicoException;
+use Ling\Ingenico\Exception\IngenicoException;
 
 class StandardIngenicoRequestResult implements StandardIngenicoRequestResultInterface
 {

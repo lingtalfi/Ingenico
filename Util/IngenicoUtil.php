@@ -1,13 +1,13 @@
 <?php
 
 
-namespace Ingenico\Util;
+namespace Ling\Ingenico\Util;
 
 
-use Bat\XmlTool;
-use Ingenico\Exception\IngenicoException;
-use Ingenico\Request\Result\StandardIngenicoRequestResult;
-use Ingenico\Request\Result\StandardIngenicoRequestResultInterface;
+use Ling\Bat\XmlTool;
+use Ling\Ingenico\Exception\IngenicoException;
+use Ling\Ingenico\Request\Result\StandardIngenicoRequestResult;
+use Ling\Ingenico\Request\Result\StandardIngenicoRequestResultInterface;
 
 class IngenicoUtil
 {

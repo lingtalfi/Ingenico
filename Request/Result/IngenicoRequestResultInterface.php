@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Ingenico\Request\Result;
+namespace Ling\Ingenico\Request\Result;
 
 
 interface IngenicoRequestResultInterface{

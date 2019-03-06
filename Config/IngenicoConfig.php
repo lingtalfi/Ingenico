@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Ingenico\Config;
+namespace Ling\Ingenico\Config;
 
 
-use Bat\ArrayTool;
-use Ingenico\Util\IngenicoUtil;
+use Ling\Bat\ArrayTool;
+use Ling\Ingenico\Util\IngenicoUtil;
 
 class IngenicoConfig implements IngenicoConfigInterface
 {

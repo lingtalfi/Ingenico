@@ -1,18 +1,18 @@
 <?php
 
 
-namespace Ingenico\Handler;
+namespace Ling\Ingenico\Handler;
 
 
-use Ingenico\Config\IngenicoConfig;
-use Ingenico\Config\IngenicoConfigInterface;
-use Ingenico\DirectLink\DirectLink;
-use Ingenico\DirectLink\DirectLinkInterface;
-use Ingenico\Ecommerce\Ecommerce;
-use Ingenico\Ecommerce\EcommerceInterface;
-use Ingenico\Exception\IngenicoException;
-use Ingenico\FlexCheckout\FlexCheckout;
-use Ingenico\FlexCheckout\FlexCheckoutInterface;
+use Ling\Ingenico\Config\IngenicoConfig;
+use Ling\Ingenico\Config\IngenicoConfigInterface;
+use Ling\Ingenico\DirectLink\DirectLink;
+use Ling\Ingenico\DirectLink\DirectLinkInterface;
+use Ling\Ingenico\Ecommerce\Ecommerce;
+use Ling\Ingenico\Ecommerce\EcommerceInterface;
+use Ling\Ingenico\Exception\IngenicoException;
+use Ling\Ingenico\FlexCheckout\FlexCheckout;
+use Ling\Ingenico\FlexCheckout\FlexCheckoutInterface;
 
 class IngenicoHandler implements IngenicoHandlerInterface
 {

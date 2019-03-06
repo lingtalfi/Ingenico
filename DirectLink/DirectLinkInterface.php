@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Ingenico\DirectLink;
+namespace Ling\Ingenico\DirectLink;
 
 
-use Ingenico\Request\Result\StandardIngenicoRequestResultInterface;
+use Ling\Ingenico\Request\Result\StandardIngenicoRequestResultInterface;
 
 interface DirectLinkInterface
 {

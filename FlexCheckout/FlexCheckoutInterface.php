@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Ingenico\FlexCheckout;
+namespace Ling\Ingenico\FlexCheckout;
 
 
 interface FlexCheckoutInterface

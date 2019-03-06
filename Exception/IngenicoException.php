@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Ingenico\Exception;
+namespace Ling\Ingenico\Exception;
 
 
 class IngenicoException extends \Exception

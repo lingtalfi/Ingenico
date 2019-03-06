@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Ingenico\Ecommerce;
+namespace Ling\Ingenico\Ecommerce;
 
 
-use Bat\ArrayTool;
-use Ingenico\Config\IngenicoConfigInterface;
-use Ingenico\Util\IngenicoUtil;
+use Ling\Bat\ArrayTool;
+use Ling\Ingenico\Config\IngenicoConfigInterface;
+use Ling\Ingenico\Util\IngenicoUtil;
 
 class Ecommerce implements EcommerceInterface
 {

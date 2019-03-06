@@ -1,7 +1,7 @@
 <?php
 
 
-use Ingenico\Handler\IngenicoHandler;
+use Ling\Ingenico\Handler\IngenicoHandler;
 
 
 require_once __DIR__ . "/../boot.php";

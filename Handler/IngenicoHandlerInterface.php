@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Ingenico\Handler;
+namespace Ling\Ingenico\Handler;
 
 
-use Ingenico\DirectLink\DirectLinkInterface;
-use Ingenico\Ecommerce\EcommerceInterface;
-use Ingenico\FlexCheckout\FlexCheckoutInterface;
+use Ling\Ingenico\DirectLink\DirectLinkInterface;
+use Ling\Ingenico\Ecommerce\EcommerceInterface;
+use Ling\Ingenico\FlexCheckout\FlexCheckoutInterface;
 
 interface IngenicoHandlerInterface
 {

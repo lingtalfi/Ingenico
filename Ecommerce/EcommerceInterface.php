@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Ingenico\Ecommerce;
+namespace Ling\Ingenico\Ecommerce;
 
 
 interface EcommerceInterface

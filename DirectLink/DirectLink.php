@@ -1,15 +1,15 @@
 <?php
 
 
-namespace Ingenico\DirectLink;
+namespace Ling\Ingenico\DirectLink;
 
 
-use Bat\HttpTool;
-use Ingenico\Exception\IngenicoException;
-use Ingenico\Config\IngenicoConfigInterface;
+use Ling\Bat\HttpTool;
+use Ling\Ingenico\Exception\IngenicoException;
+use Ling\Ingenico\Config\IngenicoConfigInterface;
 
-use Ingenico\Request\Result\StandardIngenicoRequestResultInterface;
-use Ingenico\Util\IngenicoUtil;
+use Ling\Ingenico\Request\Result\StandardIngenicoRequestResultInterface;
+use Ling\Ingenico\Util\IngenicoUtil;
 
 
 class DirectLink implements DirectLinkInterface
