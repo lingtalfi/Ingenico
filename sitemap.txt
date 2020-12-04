@@ -1,0 +1,4 @@
+https://github.com/lingtalfi/Ingenico/blob/master/README.md
+https://github.com/lingtalfi/Ingenico/blob/master/doc/demo/demo-summary.md
+https://github.com/lingtalfi/Ingenico/blob/master/doc/directlink-operation-codes-overview.md
+https://github.com/lingtalfi/Ingenico/blob/master/doc/error-codes-2017-06-28.md
