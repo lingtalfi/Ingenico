@@ -1,6 +1,6 @@
 Ingenico
 ============
-2017-06-29
+2017-06-29 -> 2021-03-05
 
 
 Helper tools for implementing ingenico payment solutions.
@@ -25,6 +25,11 @@ This is part of the [universe framework](https://github.com/karayabin/universe-s
 
 Install
 ==========
+Using the [planet installer](https://github.com/lingtalfi/Light_PlanetInstaller) via [light-cli](https://github.com/lingtalfi/Light_Cli)
+```bash
+lt install Ling.Ingenico
+```
+
 Using the [uni](https://github.com/lingtalfi/universe-naive-importer) command.
 ```bash
 uni import Ling/Ingenico
@@ -80,6 +85,10 @@ Basically, the examples cover those topics:
 
 History Log
 ------------------
+
+- 1.5.3 -- 2021-03-05
+
+    - update README.md, add install alternative
 
 - 1.5.2 -- 2020-12-08
 
